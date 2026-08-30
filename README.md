@@ -6,7 +6,9 @@ game-streaming client for Sunshine and Moonlight hosts.
 ## Install
 
 ```bash
-brew install --cask se7enbrc/glimmer/glimmer
+brew tap se7enbrc/glimmer
+brew trust --tap se7enbrc/glimmer   # Homebrew asks this of every third-party tap
+brew install --cask glimmer
 ```
 
 Apple silicon, macOS 26 (Tahoe) or newer. The cask installs the notarized
