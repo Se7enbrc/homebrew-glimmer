@@ -14,7 +14,7 @@ cask "glimmer" do
   end
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
   depends_on arch: :arm64
 
   app "Glimmer.app"
