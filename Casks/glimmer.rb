@@ -1,6 +1,6 @@
 cask "glimmer" do
-  version "2026.9.6"
-  sha256 "2187df0b65feecb940e6fb592c65f202bf07e536a4a4c422c56dbb9a4fe36fbb"
+  version "2026.9.7"
+  sha256 "58cb3f668fe8f0024cc10bac7ea20f2292ed29d124ccfcfff2a505957db21e1d"
 
   url "https://github.com/Se7enbrc/glimmer/releases/download/#{version}/Glimmer-#{version}.dmg"
   name "Glimmer"
@@ -17,6 +17,7 @@ cask "glimmer" do
   depends_on arch: :arm64
 
   app "Glimmer.app"
+  binary "#{appdir}/Glimmer.app/Contents/MacOS/Glimmer", target: "glimmer"
 
   uninstall launchctl: [
               "io.ugfugl.glimmer.helper",
