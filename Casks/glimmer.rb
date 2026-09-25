@@ -4,7 +4,7 @@ cask "glimmer" do
 
   url "https://github.com/Se7enbrc/glimmer/releases/download/#{version}/Glimmer-#{version}.dmg"
   name "Glimmer"
-  desc "Native game-streaming client for Sunshine and Moonlight hosts"
+  desc "Native client for the Sunshine game-streaming server"
   homepage "https://github.com/Se7enbrc/glimmer"
 
   livecheck do
