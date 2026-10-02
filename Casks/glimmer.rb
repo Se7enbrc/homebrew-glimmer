@@ -1,6 +1,6 @@
 cask "glimmer" do
-  version "2026.10.0"
-  sha256 "26dd7c82c46467ecad3b620af8ed28e7cfbe5cae17b4642226f572c92edf0e36"
+  version "2026.10.1"
+  sha256 "89cc00f4be74a521ef05179bc211b2a851b1c934114e695c81fa82e035636340"
 
   url "https://github.com/Se7enbrc/glimmer/releases/download/#{version}/Glimmer-#{version}.dmg"
   name "Glimmer"
