@@ -1,8 +1,8 @@
 cask "glimmer" do
-  version "2026.10.8"
-  sha256 "cb4b039f41b2339acbf2ef47412c969761687fc8acc22335c17f65cb7c6c73e7"
+  version "2026.11.0"
+  sha256 "fd92c3b7697b5b5fdb0b700cffe521d8984c8f20643fdf4cd0d8cfc46e7df543"
 
-  url "https://github.com/Se7enbrc/glimmer/releases/download/2026.10.8-rc.23/Glimmer-#{version}.dmg"
+  url "https://github.com/Se7enbrc/glimmer/releases/download/2026.11.0-rc.4/Glimmer-#{version}.dmg"
   name "Glimmer"
   desc "Native client for the Sunshine game-streaming server"
   homepage "https://github.com/Se7enbrc/glimmer"
